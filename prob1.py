@@ -1,4 +1,9 @@
 numbers = [1, 2, 3, 4]
 # Write a lambda function and use map
-squared_numbers = list(map(lambda x: _, numbers))
+squared_numbers = list(map(lambda x: x**2 , numbers))
 print(squared_numbers)
+
+'''
+Input: [1,2,3,4]
+Output: [1, 4, 9, 16]
+'''
